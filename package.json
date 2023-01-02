@@ -10,6 +10,9 @@
     "dev": "nodemon src/app.ts",
     "start": "node dist/app.js"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@13th"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SahilKumarGit/get-trim-all.git"

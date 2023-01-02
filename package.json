@@ -8,7 +8,7 @@
     "build": "tsc",
     "prepare": "npm run build",
     "dev": "nodemon src/app.ts",
-    "start": "node dist/app.js"
+    "start": "node lib/app.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,8 @@
   },
   "dependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }

@@ -1,0 +1,34 @@
+{
+  "name": "get-trim-all",
+  "version": "1.0.0",
+  "description": "trim any array or object",
+  "main": "lib/app.js",
+  "types": "lib/app.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "dev": "nodemon src/app.ts",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SahilKumarGit/get-trim-all.git"
+  },
+  "keywords": [
+    "trim",
+    "all",
+    "trim"
+  ],
+  "author": "13th <email.sahil@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SahilKumarGit/get-trim-all/issues"
+  },
+  "homepage": "https://github.com/SahilKumarGit/get-trim-all#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

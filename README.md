@@ -1,4 +1,4 @@
-# all-trim
+# get-trim-all
 
 
 ```bash
@@ -10,26 +10,26 @@ const trimAll = require('get-trim-all')
 ```
 
 ```js
-// Hello 
-let str = ' Hello '
+// Helloworld 
+let str = ' Helloworld '
 
-console.log(trimAll(str)) // 'hello'
+console.log(trimAll(str)) // 'helloworld'
 ```
 
 ```js
-let arr = [' apple ', ' orange ']
+let arr = [' google ', ' facebook ']
 
-console.log(trimAll(arr)) // ['apple', 'orange']
+console.log(trimAll(arr)) // ['google', 'facebook']
 ```
 
 ```js
 let obj = {
-  name: ' zhang ',
+  name: ' Sahil Kumar ',
   age: 19,
   hobbies: [' programming ', ' badminton ']
 }
 
-console.log(trimAll(obj)) // { name: 'zhang', age: 19, hobbies: ['programming', 'badminton'] }
+console.log(trimAll(obj)) // { name: 'Sahil Kumar', age: 19, hobbies: ['programming', 'badminton'] }
 ```
 
 ```js
@@ -41,6 +41,6 @@ console.log(trimAll(arr)) // [{ city: ['bbsr ', 'ctc']}]
 ```
 
 ```js
-let obj = { ' name ': ' zhang ' }
-console.log(trimAll(arr, true)) // { ' name ': 'zhang' }
+let obj = { ' name ': ' sahil   Kumar ' }
+console.log(trimAll(arr, true)) // { ' name ': 'sahil   Kumar' }
 ```
